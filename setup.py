@@ -18,19 +18,20 @@ setuptools.setup(
     install_requires =['numpy',
                        'pandas',
                        'matplotlib',
+                       'ipython',
                        'scipy',
-                       'binance',
-                       'python-binance',
+                       'scikit-learn',
+                       'seaborn',
                        'pillow',
-                       'setuptools',
                        'wheel',
                        'requests',
-                       'ipython',
-                       'scikit-learn',
-                       'sklearn',
-                       'seaborn',
                        'bs4',
-                       'plyer'
+                       'plyer',
+                       'binance',
+                       'python-binance',
+                       'setuptools',
+                       'jupyterlab',
+                       
                     #    '--upgrade pip' error while buidling dont use this
         ],
     

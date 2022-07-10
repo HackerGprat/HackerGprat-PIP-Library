@@ -1,0 +1,11 @@
+backup installed pip library
+pip freeze > requirements.txt
+
+restore backedup pip library
+pip install -r requirements.txt
+
+create a virtual environment to test new library
+python -m venv test
+pip install newLibrary
+
+
